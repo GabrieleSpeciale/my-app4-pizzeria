@@ -13,5 +13,6 @@ import { Component, Input } from '@angular/core';
 
 export class PizzaComponent {
 
+  // riceviamo in Input dal padre (pizzeria) la pizza cliccata all'interno del fratello (lista-pizze)
   @Input() pizzaScelta!: string;
 }

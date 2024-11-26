@@ -1,7 +1,7 @@
-// importiamo il modello doi interfaccia di come è composta la Pizza {nome, prezzo...}
+// importiamo il modello del TYPE di interfaccia di come è composta la Pizza {nome, prezzo...}
 import { Pizza } from "./pizza/pizza.model";
 
-// array contenente le pizze e le loro info / dati
+// array contenente le pizze e le loro info / dati con un customtype `Pizza` implementato in pizza.model.ts
 export const INFORMAZIONI_PIZZE: Pizza[] = [
     {
         nome: "Margherita",
