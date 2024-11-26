@@ -1,0 +1,9 @@
+<h1>Benvenuti della Pizzeria Migliore di ITS</h1>
+
+<!-- rendirizzameno della lista delle pizze prendendo l'arary delle pizze -->
+<!-- ricevuta in @Output l'evento creato per le pizze quando cliccate -->
+<app-lista-pizze [listaPizze]="pizze" (selectPizza)="onSelectPizza($event)"></app-lista-pizze>
+
+<!-- questo componente deve ricevere la pizza cliccata:
+* percorso da attuare ->    @Output lista-pizze TO pizzeria  //  @Input pizza FROM pizzeria    -->
+<app-pizza [pizzaScelta]="pizzaScelta"></app-pizza>
